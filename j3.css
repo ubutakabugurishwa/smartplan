@@ -1,0 +1,125 @@
+/* Ibyerekeye umuryango wa font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('j4.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Ibisobanuro kuri content n'imiterere yayo */
+.content {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    .red-text {
+        color: red;
+        font-weight: bold;
+    }
+    
+    .blue-text {
+        color: blue;
+        font-weight: bold;
+    }
+    
+}
+
+/* Umutwe n'amabara ya header */
+.header {
+    font-size: 45px;
+    color: red;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 200px;
+    margin-bottom: 5px;
+}
+
+/* Ibisobanuro ku form */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 0%;
+}
+
+.form input {
+    margin-bottom: 1px;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 3pt solid #fd0c0c; /* Outline nini ya 3pt */
+    font-size: 16px;
+    margin-top: 20px;
+    transition: box-shadow 0.3s ease; /* For neon effect on focus */
+}
+
+.form input:focus {
+    box-shadow: 0 0 10px rgba(248, 7, 7, 0.8); /* Neon effect on focus */
+    outline: none; /* No default outline */
+}
+
+/* Button style with neon effect */
+.form button {
+    background-color: #f80707;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 5px #f80707, 0 0 10px #f80707, 0 0 15px #f80707; /* Neon effect */
+    transition: box-shadow 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #45a049;
+    box-shadow: 0 0 5px #45a049, 0 0 10px #45a049, 0 0 15px #45a049; /* Neon effect on hover */
+}
+
+/* Animation ya logo kuva ibumoso igana iburyo */
+.logo {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 300px;
+    animation: moveRightToLeft 5s linear infinite;
+}
+
+/* Kora animation moveRightToLeft */
+@keyframes moveRightToLeft {
+    0% {
+        transform: translateX(0); /* Tangira iburyo bw'urupapuro */
+    }
+    100% {
+        transform: translateX(-100vw); /* Gera ibumoso urenze imbibi z'urupapuro */
+    }
+}
+
+
+.my-image {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url('C:/Users/Bayanga/New folder 3691/Twiga.png'); /* Path y’ifoto yawe */
+    background-size: cover;
+    background-position: center;
+    /* border-radius: 50%; — Siba niba udakeneye ko iba ikorobere */
+}
+
